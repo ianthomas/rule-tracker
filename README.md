@@ -1,2 +1,8 @@
-# rule-tracker
-Extracts citation-verified knowledge objects and executable decision rules from CMS Medicare rulemaking, tracking each rule through the baseline → proposed → final lifecycle. Citations are enforced by code, not trusted from the model: every atom carries a verified character-span. Includes an eval harness scoring accuracy, groundedness, and cost.
+# mssp-rule-lineage
+
+*(Placeholder — the real README is written in Phase 4. See docs/SPEC.md.)*
+
+Extracts citation-verified knowledge objects and executable decision rules from CMS
+Medicare Shared Savings Program rulemaking, and tracks each rule through the
+baseline → proposed → final regulatory lifecycle. Every extracted atom carries a
+character-span citation verified by code against the frozen source text.

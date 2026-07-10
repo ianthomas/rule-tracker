@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make:*)",
+      "Bash(uv:*)",
+      "Bash(pytest:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(ruff:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git tag:*)",
+      "Bash(ls:*)", "Bash(cat:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(head:*)", "Bash(tail:*)",
+      "Bash(curl https://www.federalregister.gov/*)",
+      "Bash(curl https://www.govinfo.gov/*)",
+      "WebFetch(domain:www.federalregister.gov)",
+      "WebFetch(domain:www.govinfo.gov)"
+    ],
+    "deny": [
+      "Bash(git push:*)",
+      "Bash(rm -rf:*)"
+    ]
+  }
+}
