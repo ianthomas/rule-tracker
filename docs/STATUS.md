@@ -5,7 +5,7 @@ Update at every state transition.
 
 | Phase | Name                        | Agent budget | Agent actual | Human review | State       |
 |-------|-----------------------------|--------------|--------------|--------------|-------------|
-| 0     | Scaffold + ingestion        | 3h           | –            | –            | not started |
+| 0     | Scaffold + ingestion        | 3h           | –            | –            | in progress |
 | 1     | Extraction + verification   | 6h           | –            | –            | not started |
 | 2     | Eval harness                | 5h           | –            | –            | not started |
 | 3     | Lineage across the triplet  | 4h           | –            | –            | not started |
@@ -14,7 +14,7 @@ Update at every state transition.
 Valid states: `not started` → `in progress` → `awaiting human review`
 → (`rework` → `awaiting human review`)* → `approved`
 
-Current phase: 0 (not started)
+Current phase: 0 (in progress, branch phase-0)
 Last package submitted: none
 Last response received: none
 

@@ -1,0 +1,46 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0 -- G:\src\rule-tracker\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: G:\src\rule-tracker
+configfile: pyproject.toml
+testpaths: tests
+collecting ... collected 36 items
+
+tests/integration/phase-0/test_corpus_artifacts.py::test_artifacts_exist_and_manifest_shape[2022-23873] PASSED [  2%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_artifacts_exist_and_manifest_shape[2023-14624] PASSED [  5%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_artifacts_exist_and_manifest_shape[2023-24184] PASSED [  8%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_text_hash_matches_manifest[2022-23873] PASSED [ 11%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_text_hash_matches_manifest[2023-14624] PASSED [ 13%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_text_hash_matches_manifest[2023-24184] PASSED [ 16%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_at_least_one_part_425_regtext[2022-23873] PASSED [ 19%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_at_least_one_part_425_regtext[2023-14624] PASSED [ 22%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_at_least_one_part_425_regtext[2023-24184] PASSED [ 25%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_offsets_slice_to_heading[2022-23873] PASSED [ 27%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_offsets_slice_to_heading[2023-14624] PASSED [ 30%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_offsets_slice_to_heading[2023-24184] PASSED [ 33%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_ingest_idempotent[2022-23873] PASSED [ 36%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_ingest_idempotent[2023-14624] PASSED [ 38%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_ingest_idempotent[2023-24184] PASSED [ 41%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_no_xml_debris[2022-23873] PASSED [ 44%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_no_xml_debris[2023-14624] PASSED [ 47%]
+tests/integration/phase-0/test_corpus_artifacts.py::test_no_xml_debris[2023-24184] PASSED [ 50%]
+tests/unit/test_fetch.py::test_fetch_skips_download_when_raw_exists PASSED [ 52%]
+tests/unit/test_fetch.py::test_fetch_errors_when_no_xml_url PASSED       [ 55%]
+tests/unit/test_freeze.py::test_first_write_succeeds PASSED              [ 58%]
+tests/unit/test_freeze.py::test_identical_rewrite_is_noop PASSED         [ 61%]
+tests/unit/test_freeze.py::test_different_rewrite_raises PASSED          [ 63%]
+tests/unit/test_normalize.py::test_collapses_whitespace_runs PASSED      [ 66%]
+tests/unit/test_normalize.py::test_strips_ends PASSED                    [ 69%]
+tests/unit/test_normalize.py::test_nfc_normalization PASSED              [ 72%]
+tests/unit/test_normalize.py::test_nonbreaking_space_collapsed PASSED    [ 75%]
+tests/unit/test_normalize.py::test_idempotent PASSED                     [ 77%]
+tests/unit/test_normalize.py::test_empty PASSED                          [ 80%]
+tests/unit/test_sections.py::test_rule_layout_kinds_and_scope PASSED     [ 83%]
+tests/unit/test_sections.py::test_rule_layout_slices_match_headings PASSED [ 86%]
+tests/unit/test_sections.py::test_rule_layout_preamble_content PASSED    [ 88%]
+tests/unit/test_sections.py::test_rule_layout_cfr_refs PASSED            [ 91%]
+tests/unit/test_sections.py::test_prorule_flat_layout PASSED             [ 94%]
+tests/unit/test_sections.py::test_prorule_slices_match_headings PASSED   [ 97%]
+tests/unit/test_sections.py::test_determinism PASSED                     [100%]
+
+============================= 36 passed in 0.97s ==============================

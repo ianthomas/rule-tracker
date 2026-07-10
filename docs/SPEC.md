@@ -1,5 +1,8 @@
 # SPEC — MSSP Rule Lineage
 
+> Capability-level view (what it does start-to-finish, for a reader): see
+> docs/CAPABILITIES.md. This SPEC is the how; CAPABILITIES is the what.
+
 ## 1. Problem statement
 
 Federal rulemaking encodes binding, conditional logic in dense prose, revised through a

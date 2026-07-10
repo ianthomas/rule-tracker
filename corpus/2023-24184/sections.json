@@ -1,0 +1,706 @@
+{
+  "doc_id": "2023-24184",
+  "stage": "FINAL",
+  "citation": "88 FR 78818",
+  "docket": "CMS-1784-F",
+  "raw_sha256": "b4603e641a4e3efb50ce6ddf8d5913b3a602f21f235d9dcb7f3f676043de8a32",
+  "text_sha256": "ce7a03ea08362c701c8c327e68ccddbf0b07fa29a2dde149405ea599a229121f",
+  "sections": [
+    {
+      "section_id": "s0000",
+      "kind": "preamble",
+      "heading": "G. Medicare Shared Savings Program",
+      "heading_path": [
+        "III. Other Provisions of the Proposed Rule",
+        "G. Medicare Shared Savings Program"
+      ],
+      "start": 0,
+      "end": 442946
+    },
+    {
+      "section_id": "s0001",
+      "kind": "preamble",
+      "heading": "b. Revisions to the Definition of Primary Care Services Used in Shared Savings Program Beneficiary Assignment",
+      "heading_path": [
+        "III. Other Provisions of the Proposed Rule",
+        "b. Revisions to the Definition of Primary Care Services Used in Shared Savings Program Beneficiary Assignment"
+      ],
+      "start": 442948,
+      "end": 911500
+    },
+    {
+      "section_id": "s0002",
+      "kind": "preamble",
+      "heading": "(2) Provisions for the Medicare Clinical Quality Measure for Accountable Care Organizations Participating in the Medicare Shared Savings Program",
+      "heading_path": [
+        "IV. Updates to the Quality Payment Program",
+        "A. CY 2024 Modifications to the Quality Payment Program",
+        "(2) Provisions for the Medicare Clinical Quality Measure for Accountable Care Organizations Participating in the Medicare Shared Savings Program"
+      ],
+      "start": 911502,
+      "end": 915009
+    },
+    {
+      "section_id": "s0003",
+      "kind": "preamble",
+      "heading": "3. ICRs Regarding the Medicare Shared Savings Program",
+      "heading_path": [
+        "V. Collection of Information Requirements",
+        "B. Information Collection Requirements (ICRs)",
+        "3. ICRs Regarding the Medicare Shared Savings Program"
+      ],
+      "start": 915011,
+      "end": 915539
+    },
+    {
+      "section_id": "s0004",
+      "kind": "preamble",
+      "heading": "d. Medicare Shared Savings Program",
+      "heading_path": [
+        "VI. Regulatory Impact Analysis",
+        "A. Statement of Need",
+        "d. Medicare Shared Savings Program"
+      ],
+      "start": 915541,
+      "end": 917829
+    },
+    {
+      "section_id": "s0005",
+      "kind": "preamble",
+      "heading": "10. Medicare Shared Savings Program",
+      "heading_path": [
+        "VI. Regulatory Impact Analysis",
+        "E. Other Provisions of the Regulation",
+        "10. Medicare Shared Savings Program"
+      ],
+      "start": 917831,
+      "end": 917866
+    },
+    {
+      "section_id": "s0006",
+      "kind": "preamble",
+      "heading": "1. Medicare Shared Savings Program Provisions",
+      "heading_path": [
+        "VI. Regulatory Impact Analysis",
+        "G. Impact on Beneficiaries",
+        "1. Medicare Shared Savings Program Provisions"
+      ],
+      "start": 917868,
+      "end": 920096
+    },
+    {
+      "section_id": "s0007",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 920098,
+      "end": 920273
+    },
+    {
+      "section_id": "s0008",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 920275,
+      "end": 921297,
+      "cfr_refs": [
+        "425.20"
+      ]
+    },
+    {
+      "section_id": "s0009",
+      "kind": "regtext",
+      "heading": "§ 425.20 Definitions.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.20 Definitions."
+      ],
+      "start": 921299,
+      "end": 925262,
+      "cfr_refs": [
+        "425.20"
+      ]
+    },
+    {
+      "section_id": "s0010",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 925264,
+      "end": 925394,
+      "cfr_refs": [
+        "425.106"
+      ]
+    },
+    {
+      "section_id": "s0011",
+      "kind": "regtext",
+      "heading": "§ 425.106 Shared governance.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.106 Shared governance."
+      ],
+      "start": 925396,
+      "end": 926087,
+      "cfr_refs": [
+        "425.106"
+      ]
+    },
+    {
+      "section_id": "s0012",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 926089,
+      "end": 926367,
+      "cfr_refs": [
+        "425.106",
+        "425.204"
+      ]
+    },
+    {
+      "section_id": "s0013",
+      "kind": "regtext",
+      "heading": "§ 425.204 Content of the application.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.204 Content of the application."
+      ],
+      "start": 926369,
+      "end": 926679,
+      "cfr_refs": [
+        "425.204"
+      ]
+    },
+    {
+      "section_id": "s0014",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 926681,
+      "end": 926816,
+      "cfr_refs": [
+        "425.302"
+      ]
+    },
+    {
+      "section_id": "s0015",
+      "kind": "regtext",
+      "heading": "§ 425.302 Program requirements for data submission and certifications.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.302 Program requirements for data submission and certifications."
+      ],
+      "start": 926818,
+      "end": 927227,
+      "cfr_refs": [
+        "425.302"
+      ]
+    },
+    {
+      "section_id": "s0016",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 927229,
+      "end": 927357,
+      "cfr_refs": [
+        "425.308"
+      ]
+    },
+    {
+      "section_id": "s0017",
+      "kind": "regtext",
+      "heading": "§ 425.308 Public reporting and transparency.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.308 Public reporting and transparency."
+      ],
+      "start": 927359,
+      "end": 928369,
+      "cfr_refs": [
+        "425.308"
+      ]
+    },
+    {
+      "section_id": "s0018",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 928371,
+      "end": 928534,
+      "cfr_refs": [
+        "425.316"
+      ]
+    },
+    {
+      "section_id": "s0019",
+      "kind": "regtext",
+      "heading": "§ 425.316 Monitoring of ACOs.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.316 Monitoring of ACOs."
+      ],
+      "start": 928536,
+      "end": 929093,
+      "cfr_refs": [
+        "425.316"
+      ]
+    },
+    {
+      "section_id": "s0020",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 929095,
+      "end": 929587,
+      "cfr_refs": [
+        "425.400"
+      ]
+    },
+    {
+      "section_id": "s0021",
+      "kind": "regtext",
+      "heading": "§ 425.400 General.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.400 General."
+      ],
+      "start": 929589,
+      "end": 934685,
+      "cfr_refs": [
+        "425.400"
+      ]
+    },
+    {
+      "section_id": "s0022",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 934687,
+      "end": 935070,
+      "cfr_refs": [
+        "425.226",
+        "425.400",
+        "425.402"
+      ]
+    },
+    {
+      "section_id": "s0023",
+      "kind": "regtext",
+      "heading": "§ 425.402 Basic assignment methodology.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.402 Basic assignment methodology."
+      ],
+      "start": 935072,
+      "end": 937677,
+      "cfr_refs": [
+        "425.402"
+      ]
+    },
+    {
+      "section_id": "s0024",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 937679,
+      "end": 937824,
+      "cfr_refs": [
+        "425.506"
+      ]
+    },
+    {
+      "section_id": "s0025",
+      "kind": "regtext",
+      "heading": "§ 425.506 Incorporating reporting requirements related to adoption of certified electronic health record technology.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.506 Incorporating reporting requirements related to adoption of certified electronic health record technology."
+      ],
+      "start": 937826,
+      "end": 938033,
+      "cfr_refs": [
+        "425.506"
+      ]
+    },
+    {
+      "section_id": "s0026",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 938035,
+      "end": 938147,
+      "cfr_refs": [
+        "425.507"
+      ]
+    },
+    {
+      "section_id": "s0027",
+      "kind": "regtext",
+      "heading": "§ 425.507 Incorporating Promoting Interoperability requirements related to the Quality Payment Program for performance years beginning on or after January 1, 2025.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.507 Incorporating Promoting Interoperability requirements related to the Quality Payment Program for performance years beginning on or after January 1, 2025."
+      ],
+      "start": 938149,
+      "end": 940094,
+      "cfr_refs": [
+        "425.507"
+      ]
+    },
+    {
+      "section_id": "s0028",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 940096,
+      "end": 942141,
+      "cfr_refs": [
+        "425.512"
+      ]
+    },
+    {
+      "section_id": "s0029",
+      "kind": "regtext",
+      "heading": "§ 425.512 Determining the ACO quality performance standard for performance years beginning on or after January 1, 2021.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.512 Determining the ACO quality performance standard for performance years beginning on or after January 1, 2021."
+      ],
+      "start": 942143,
+      "end": 950277,
+      "cfr_refs": [
+        "425.512"
+      ]
+    },
+    {
+      "section_id": "s0030",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 950279,
+      "end": 950464,
+      "cfr_refs": [
+        "425.600",
+        "425.656"
+      ]
+    },
+    {
+      "section_id": "s0031",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 950466,
+      "end": 950676,
+      "cfr_refs": [
+        "425.226",
+        "425.400",
+        "425.601"
+      ]
+    },
+    {
+      "section_id": "s0032",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 950678,
+      "end": 950882,
+      "cfr_refs": [
+        "425.611",
+        "425.652",
+        "425.658"
+      ]
+    },
+    {
+      "section_id": "s0033",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 950884,
+      "end": 951338,
+      "cfr_refs": [
+        "425.630"
+      ]
+    },
+    {
+      "section_id": "s0034",
+      "kind": "regtext",
+      "heading": "§ 425.630 Option to receive advance investment payments.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.630 Option to receive advance investment payments."
+      ],
+      "start": 951340,
+      "end": 954759,
+      "cfr_refs": [
+        "425.630"
+      ]
+    },
+    {
+      "section_id": "s0035",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 954761,
+      "end": 954997,
+      "cfr_refs": [
+        "425.601",
+        "425.602",
+        "425.603",
+        "425.650",
+        "425.659"
+      ]
+    },
+    {
+      "section_id": "s0036",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 954999,
+      "end": 955696,
+      "cfr_refs": [
+        "425.226",
+        "425.400",
+        "425.652"
+      ]
+    },
+    {
+      "section_id": "s0037",
+      "kind": "regtext",
+      "heading": "§ 425.652 Establishing, adjusting, and updating the benchmark for agreement periods beginning on January 1, 2024, and in subsequent years.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.652 Establishing, adjusting, and updating the benchmark for agreement periods beginning on January 1, 2024, and in subsequent years."
+      ],
+      "start": 955698,
+      "end": 961738,
+      "cfr_refs": [
+        "425.652"
+      ]
+    },
+    {
+      "section_id": "s0038",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 961740,
+      "end": 961874,
+      "cfr_refs": [
+        "425.654"
+      ]
+    },
+    {
+      "section_id": "s0039",
+      "kind": "regtext",
+      "heading": "§ 425.654 Calculating county expenditures and regional expenditures.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.654 Calculating county expenditures and regional expenditures."
+      ],
+      "start": 961876,
+      "end": 962454,
+      "cfr_refs": [
+        "425.654"
+      ]
+    },
+    {
+      "section_id": "s0040",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 962456,
+      "end": 962569,
+      "cfr_refs": [
+        "425.655"
+      ]
+    },
+    {
+      "section_id": "s0041",
+      "kind": "regtext",
+      "heading": "§ 425.655 Calculating the regional risk score growth cap adjustment factor.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.655 Calculating the regional risk score growth cap adjustment factor."
+      ],
+      "start": 962571,
+      "end": 969824,
+      "cfr_refs": [
+        "425.655"
+      ]
+    },
+    {
+      "section_id": "s0042",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 969826,
+      "end": 970787,
+      "cfr_refs": [
+        "425.656"
+      ]
+    },
+    {
+      "section_id": "s0043",
+      "kind": "regtext",
+      "heading": "§ 425.656 Calculating the regional adjustment to the historical benchmark.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.656 Calculating the regional adjustment to the historical benchmark."
+      ],
+      "start": 970789,
+      "end": 971815,
+      "cfr_refs": [
+        "425.656"
+      ]
+    },
+    {
+      "section_id": "s0044",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 971817,
+      "end": 972155,
+      "cfr_refs": [
+        "425.656",
+        "425.658"
+      ]
+    },
+    {
+      "section_id": "s0045",
+      "kind": "regtext",
+      "heading": "§ 425.658 Calculating the prior savings adjustment to the historical benchmark.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.658 Calculating the prior savings adjustment to the historical benchmark."
+      ],
+      "start": 972157,
+      "end": 974315,
+      "cfr_refs": [
+        "425.658"
+      ]
+    },
+    {
+      "section_id": "s0046",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 974317,
+      "end": 974430,
+      "cfr_refs": [
+        "425.659"
+      ]
+    },
+    {
+      "section_id": "s0047",
+      "kind": "regtext",
+      "heading": "§ 425.659 Calculating risk scores used in Shared Savings Program benchmark calculations.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.659 Calculating risk scores used in Shared Savings Program benchmark calculations."
+      ],
+      "start": 974432,
+      "end": 976841,
+      "cfr_refs": [
+        "425.659"
+      ]
+    },
+    {
+      "section_id": "s0048",
+      "kind": "regtext",
+      "heading": "PART 425 (Title 42 CFR) — amendatory instructions",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "amendatory instructions"
+      ],
+      "start": 976843,
+      "end": 977208,
+      "cfr_refs": [
+        "425.702"
+      ]
+    },
+    {
+      "section_id": "s0049",
+      "kind": "regtext",
+      "heading": "§ 425.702 Aggregate reports.",
+      "heading_path": [
+        "PART 425 (Title 42 CFR)",
+        "§ 425.702 Aggregate reports."
+      ],
+      "start": 977210,
+      "end": 978449,
+      "cfr_refs": [
+        "425.702"
+      ]
+    }
+  ]
+}
