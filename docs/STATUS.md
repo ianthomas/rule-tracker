@@ -5,7 +5,7 @@ Update at every state transition.
 
 | Phase | Name                        | Agent budget | Agent actual | Human review | State       |
 |-------|-----------------------------|--------------|--------------|--------------|-------------|
-| 0     | Scaffold + ingestion        | 3h           | ~2.5h        | –            | awaiting human review |
+| 0     | Scaffold + ingestion        | 3h           | ~3h          | –            | awaiting human review |
 | 1     | Extraction + verification   | 6h           | –            | –            | not started |
 | 2     | Eval harness                | 5h           | –            | –            | not started |
 | 3     | Lineage across the triplet  | 4h           | –            | –            | not started |

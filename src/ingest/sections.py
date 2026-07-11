@@ -73,13 +73,38 @@ def _hd_text(el: etree._Element) -> str:
     return para_text(el)
 
 
+# FR XML flattens deep outline levels: sub-headings like "a. General Impacts"
+# carry the SAME SOURCE level (e.g. HD3) as their parent "7. Medicare Shared
+# Savings Program". The real hierarchy is encoded in the enumerator style, in
+# this order (outermost first): I. > A. > 1. > a. > (1) > (a)/(i).
+_ENUM_PATTERNS: list[tuple[re.Pattern, int]] = [
+    (re.compile(r"^[IVXLCDM]+\.\s"), 1),  # Roman capital: "VII. ..."
+    (re.compile(r"^[A-Z]\.\s"), 2),  # Capital letter: "G. ..."
+    (re.compile(r"^\d+\.\s"), 3),  # Number: "7. ..."
+    (re.compile(r"^[a-z]\.\s"), 4),  # Lowercase letter: "a. ..."
+    (re.compile(r"^\(\d+\)\s"), 5),  # Parenthesized number: "(1) ..."
+    (re.compile(r"^\([a-z]+\)\s"), 6),  # Parenthesized letter/roman: "(a)", "(iv)"
+]
+
+
+def _enum_rank(heading: str) -> int:
+    """Outline rank of a heading's enumerator; unenumerated headings rank
+    deepest (9) so they never terminate an enumerated block."""
+    for pattern, rank in _ENUM_PATTERNS:
+        if pattern.match(heading):
+            return rank
+    return 9
+
+
 def _preamble_ranges(children: list[etree._Element]) -> list[tuple[int, int]]:
     """Index ranges [start, end) of SUPLINF children covering MSSP preamble blocks.
 
     A block starts at a direct-child HD whose text contains the MSSP marker and
-    runs until the next HD of the same or higher level, or the start of the
-    regulation text (first REGTEXT, or LSTSUB in flat PRORULE layout).
-    Ranges nested inside another matched range are dropped.
+    runs until the next HD that is a true peer or ancestor — i.e. a lower HD
+    SOURCE level, or the same level with an enumerator rank at or above the
+    start's (see _enum_rank: same-level "a." sub-headings do NOT end a "7."
+    block) — or the start of the regulation text (first REGTEXT, or LSTSUB in
+    flat PRORULE layout). Ranges nested inside another matched range are dropped.
     """
     hds = [
         (i, HD_LEVEL.get(el.get("SOURCE", ""), 9), _hd_text(el))
@@ -94,7 +119,15 @@ def _preamble_ranges(children: list[etree._Element]) -> list[tuple[int, int]]:
     for i, level, text in hds:
         if config.MSSP_HEADING_MARKER not in text.lower():
             continue
-        end = next((j for j, l2, _ in hds if j > i and l2 <= level), len(children))
+        rank = _enum_rank(text)
+        end = next(
+            (
+                j
+                for j, l2, t2 in hds
+                if j > i and (l2 < level or (l2 == level and _enum_rank(t2) <= rank))
+            ),
+            len(children),
+        )
         ranges.append((i, min(end, first_regtext)))
     # Drop ranges fully contained in another matched range.
     return [

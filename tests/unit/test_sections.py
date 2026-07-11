@@ -22,6 +22,12 @@ RULE_XML = """<RULE>
     <P>Nested MSSP paragraph.</P>
     <HD SOURCE="HD2">H. Other Payment Topic</HD>
     <P>Out of scope paragraph.</P>
+    <HD SOURCE="HD1">VII. Regulatory Impact Analysis</HD>
+    <HD SOURCE="HD3">7. Medicare Shared Savings Program</HD>
+    <HD SOURCE="HD3">a. General Impacts</HD>
+    <P>RIA impact paragraph under a same-level lettered sub-heading.</P>
+    <HD SOURCE="HD3">8. Other RIA Topic</HD>
+    <P>Peer RIA paragraph, out of scope.</P>
     <REGTEXT TITLE="42" PART="414">
       <AMDPAR>1. Part 414 is amended.</AMDPAR>
     </REGTEXT>
@@ -77,11 +83,23 @@ def prorule_path(tmp_path: Path) -> Path:
 def test_rule_layout_kinds_and_scope(rule_path):
     text, entries = build_sections(rule_path)
     kinds = [e["kind"] for e in entries]
-    assert kinds.count("preamble") == 1  # nested HD3 range is contained, dropped
+    assert kinds.count("preamble") == 2  # HD2 "G." block + RIA "7." block
     assert kinds.count("regtext") == 2  # amendatory group + § 425.20
     # out-of-scope content discarded at ingestion
     assert "Out of scope" not in text
     assert "Part 414" not in text
+    assert "Peer RIA paragraph" not in text
+
+
+def test_same_level_lettered_subheadings_do_not_end_block(rule_path):
+    """Regression: FR XML tags 'a.' sub-headings at the SAME HD level as their
+    numbered parent; the block must run to the next true peer ('8.')."""
+    text, entries = build_sections(rule_path)
+    ria = next(e for e in entries if e["heading"].startswith("7. Medicare"))
+    body = text[ria["start"] : ria["end"]]
+    assert "a. General Impacts" in body
+    assert "RIA impact paragraph" in body
+    assert "8. Other RIA Topic" not in body
 
 
 def test_rule_layout_slices_match_headings(rule_path):

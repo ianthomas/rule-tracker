@@ -1,10 +1,10 @@
 uv run python -m src.ingest.run
 [BASELINE] 2022-23873 (87 FR 69404, CMS-1770-F)
   raw.xml: 6,132,993 bytes
-  sections: 63 (6 preamble, 57 regtext, 36 distinct § 425.x refs), text.txt: 1,487,681 chars [unchanged (frozen)]
+  sections: 63 (6 preamble, 57 regtext, 36 distinct § 425.x refs), text.txt: 1,516,708 chars [written]
 [PROPOSED] 2023-14624 (88 FR 52262, CMS-1784-P)
   raw.xml: 3,485,928 bytes
-  sections: 50 (6 preamble, 44 regtext, 26 distinct § 425.x refs), text.txt: 572,580 chars [unchanged (frozen)]
+  sections: 50 (6 preamble, 44 regtext, 26 distinct § 425.x refs), text.txt: 591,104 chars [written]
 [FINAL] 2023-24184 (88 FR 78818, CMS-1784-F)
   raw.xml: 5,443,966 bytes
-  sections: 50 (7 preamble, 43 regtext, 26 distinct § 425.x refs), text.txt: 978,450 chars [unchanged (frozen)]
+  sections: 49 (6 preamble, 43 regtext, 26 distinct § 425.x refs), text.txt: 997,142 chars [written]

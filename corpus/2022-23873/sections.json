@@ -4,7 +4,7 @@
   "citation": "87 FR 69404",
   "docket": "CMS-1770-F",
   "raw_sha256": "afef2ff09cdb053389f61134e497cd3e1c6aed77e5c91b55076f0d6e059709db",
-  "text_sha256": "e75951c85d09d2181bc47cb1e24ea1f7204cac777dd787bba333e3e5c3e79f09",
+  "text_sha256": "907de4f43fd88ee102bdf7504f8e204ad82a3c15cfd104578e0eab0fd32664d8",
   "sections": [
     {
       "section_id": "s0000",
@@ -51,7 +51,7 @@
         "7. Medicare Shared Savings Program"
       ],
       "start": 1366347,
-      "end": 1366381
+      "end": 1395408
     },
     {
       "section_id": "s0004",
@@ -62,8 +62,8 @@
         "F. Alternatives Considered",
         "5. Alternatives Considered Related to the Medicare Shared Savings Program"
       ],
-      "start": 1366383,
-      "end": 1369671
+      "start": 1395410,
+      "end": 1398698
     },
     {
       "section_id": "s0005",
@@ -74,8 +74,8 @@
         "G. Impact on Beneficiaries",
         "1. Shared Savings Program Provisions"
       ],
-      "start": 1369673,
-      "end": 1371610
+      "start": 1398700,
+      "end": 1400637
     },
     {
       "section_id": "s0006",
@@ -85,8 +85,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1371612,
-      "end": 1371787
+      "start": 1400639,
+      "end": 1400814
     },
     {
       "section_id": "s0007",
@@ -96,8 +96,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1371789,
-      "end": 1372481,
+      "start": 1400816,
+      "end": 1401508,
       "cfr_refs": [
         "425.20"
       ]
@@ -110,8 +110,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.20 Definitions."
       ],
-      "start": 1372483,
-      "end": 1372773,
+      "start": 1401510,
+      "end": 1401800,
       "cfr_refs": [
         "425.20"
       ]
@@ -124,8 +124,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1372775,
-      "end": 1372954,
+      "start": 1401802,
+      "end": 1401981,
       "cfr_refs": [
         "425.100"
       ]
@@ -138,8 +138,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.100 General."
       ],
-      "start": 1372956,
-      "end": 1373268,
+      "start": 1401983,
+      "end": 1402295,
       "cfr_refs": [
         "425.100"
       ]
@@ -152,8 +152,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.204 [Amended]"
       ],
-      "start": 1373270,
-      "end": 1373289,
+      "start": 1402297,
+      "end": 1402316,
       "cfr_refs": [
         "425.204"
       ]
@@ -166,8 +166,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1373291,
-      "end": 1373529,
+      "start": 1402318,
+      "end": 1402556,
       "cfr_refs": [
         "425.204",
         "425.601",
@@ -184,8 +184,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1373531,
-      "end": 1373710,
+      "start": 1402558,
+      "end": 1402737,
       "cfr_refs": [
         "425.224"
       ]
@@ -198,8 +198,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1373712,
-      "end": 1373833,
+      "start": 1402739,
+      "end": 1402860,
       "cfr_refs": [
         "425.302"
       ]
@@ -212,8 +212,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.302 Program requirements for data submission and certifications."
       ],
-      "start": 1373835,
-      "end": 1374192,
+      "start": 1402862,
+      "end": 1403219,
       "cfr_refs": [
         "425.302"
       ]
@@ -226,8 +226,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1374194,
-      "end": 1374311,
+      "start": 1403221,
+      "end": 1403338,
       "cfr_refs": [
         "425.308"
       ]
@@ -240,8 +240,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.308 Public reporting and transparency."
       ],
-      "start": 1374313,
-      "end": 1374913,
+      "start": 1403340,
+      "end": 1403940,
       "cfr_refs": [
         "425.308"
       ]
@@ -254,8 +254,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1374915,
-      "end": 1375016,
+      "start": 1403942,
+      "end": 1404043,
       "cfr_refs": [
         "425.310"
       ]
@@ -268,8 +268,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.310 Marketing requirements."
       ],
-      "start": 1375018,
-      "end": 1376065,
+      "start": 1404045,
+      "end": 1405092,
       "cfr_refs": [
         "425.310"
       ]
@@ -282,8 +282,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1376067,
-      "end": 1376186,
+      "start": 1405094,
+      "end": 1405213,
       "cfr_refs": [
         "425.312"
       ]
@@ -296,8 +296,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.312 Beneficiary notifications."
       ],
-      "start": 1376188,
-      "end": 1378257,
+      "start": 1405215,
+      "end": 1407284,
       "cfr_refs": [
         "425.312"
       ]
@@ -310,8 +310,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1378259,
-      "end": 1378373,
+      "start": 1407286,
+      "end": 1407400,
       "cfr_refs": [
         "425.316"
       ]
@@ -324,8 +324,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.316 Monitoring of ACOs."
       ],
-      "start": 1378375,
-      "end": 1379603,
+      "start": 1407402,
+      "end": 1408630,
       "cfr_refs": [
         "425.316"
       ]
@@ -338,8 +338,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1379605,
-      "end": 1379814,
+      "start": 1408632,
+      "end": 1408841,
       "cfr_refs": [
         "425.400"
       ]
@@ -352,8 +352,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.400 General."
       ],
-      "start": 1379816,
-      "end": 1383014,
+      "start": 1408843,
+      "end": 1412041,
       "cfr_refs": [
         "425.400"
       ]
@@ -366,8 +366,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1383016,
-      "end": 1383130,
+      "start": 1412043,
+      "end": 1412157,
       "cfr_refs": [
         "425.402"
       ]
@@ -380,8 +380,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.402 Basic assignment methodology."
       ],
-      "start": 1383132,
-      "end": 1385082,
+      "start": 1412159,
+      "end": 1414109,
       "cfr_refs": [
         "425.402"
       ]
@@ -394,8 +394,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1385084,
-      "end": 1385892,
+      "start": 1414111,
+      "end": 1414919,
       "cfr_refs": [
         "425.512"
       ]
@@ -408,8 +408,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.512 Determining the ACO quality performance standard for performance years beginning on or after January 1, 2021."
       ],
-      "start": 1385894,
-      "end": 1394709,
+      "start": 1414921,
+      "end": 1423736,
       "cfr_refs": [
         "425.512"
       ]
@@ -422,8 +422,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1394711,
-      "end": 1396477,
+      "start": 1423738,
+      "end": 1425504,
       "cfr_refs": [
         "425.600",
         "425.601",
@@ -439,8 +439,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.600 Selection of risk model."
       ],
-      "start": 1396479,
-      "end": 1407764,
+      "start": 1425506,
+      "end": 1436791,
       "cfr_refs": [
         "425.600"
       ]
@@ -453,8 +453,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1407766,
-      "end": 1408663,
+      "start": 1436793,
+      "end": 1437690,
       "cfr_refs": [
         "425.601"
       ]
@@ -467,8 +467,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.601 Establishing, adjusting, and updating the benchmark for agreement periods beginning on or after July 1, 2019, and before January 1, 2024."
       ],
-      "start": 1408665,
-      "end": 1409174,
+      "start": 1437692,
+      "end": 1438201,
       "cfr_refs": [
         "425.601"
       ]
@@ -481,8 +481,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1409176,
-      "end": 1411093,
+      "start": 1438203,
+      "end": 1440120,
       "cfr_refs": [
         "425.600",
         "425.601",
@@ -498,8 +498,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.605 Calculation of shared savings and losses under the BASIC track."
       ],
-      "start": 1411095,
-      "end": 1427509,
+      "start": 1440122,
+      "end": 1456536,
       "cfr_refs": [
         "425.605"
       ]
@@ -512,8 +512,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1427511,
-      "end": 1428227,
+      "start": 1456538,
+      "end": 1457254,
       "cfr_refs": [
         "425.601",
         "425.602",
@@ -530,8 +530,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.610 Calculation of shared savings and losses under the ENHANCED track."
       ],
-      "start": 1428229,
-      "end": 1435031,
+      "start": 1457256,
+      "end": 1464058,
       "cfr_refs": [
         "425.610"
       ]
@@ -544,8 +544,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1435033,
-      "end": 1436077,
+      "start": 1464060,
+      "end": 1465104,
       "cfr_refs": [
         "425.601",
         "425.602",
@@ -563,8 +563,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.611 Adjustments to Shared Savings Program calculations to address the COVID-19 pandemic."
       ],
-      "start": 1436079,
-      "end": 1437058,
+      "start": 1465106,
+      "end": 1466085,
       "cfr_refs": [
         "425.611"
       ]
@@ -577,8 +577,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1437060,
-      "end": 1437367,
+      "start": 1466087,
+      "end": 1466394,
       "cfr_refs": [
         "425.612"
       ]
@@ -591,8 +591,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.612 Waivers of payment rules or other Medicare requirements."
       ],
-      "start": 1437369,
-      "end": 1437635,
+      "start": 1466396,
+      "end": 1466662,
       "cfr_refs": [
         "425.612"
       ]
@@ -605,8 +605,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1437637,
-      "end": 1437748,
+      "start": 1466664,
+      "end": 1466775,
       "cfr_refs": [
         "425.614",
         "425.629"
@@ -620,8 +620,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1437750,
-      "end": 1437862,
+      "start": 1466777,
+      "end": 1466889,
       "cfr_refs": [
         "425.630"
       ]
@@ -634,8 +634,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.630 Option to receive advance investment payments."
       ],
-      "start": 1437864,
-      "end": 1449008,
+      "start": 1466891,
+      "end": 1478035,
       "cfr_refs": [
         "425.630"
       ]
@@ -648,8 +648,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1449010,
-      "end": 1449121,
+      "start": 1478037,
+      "end": 1478148,
       "cfr_refs": [
         "425.631",
         "425.649"
@@ -663,8 +663,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1449123,
-      "end": 1449235,
+      "start": 1478150,
+      "end": 1478262,
       "cfr_refs": [
         "425.650"
       ]
@@ -677,8 +677,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.650 Benchmarking methodology."
       ],
-      "start": 1449237,
-      "end": 1449717,
+      "start": 1478264,
+      "end": 1478744,
       "cfr_refs": [
         "425.650"
       ]
@@ -691,8 +691,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1449719,
-      "end": 1449831,
+      "start": 1478746,
+      "end": 1478858,
       "cfr_refs": [
         "425.652"
       ]
@@ -705,8 +705,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.652 Establishing, adjusting, and updating the benchmark for agreement periods beginning on January 1, 2024, and in subsequent years."
       ],
-      "start": 1449833,
-      "end": 1466137,
+      "start": 1478860,
+      "end": 1495164,
       "cfr_refs": [
         "425.652"
       ]
@@ -719,8 +719,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1466139,
-      "end": 1466251,
+      "start": 1495166,
+      "end": 1495278,
       "cfr_refs": [
         "425.654"
       ]
@@ -733,8 +733,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.654 Calculating county expenditures and regional expenditures."
       ],
-      "start": 1466253,
-      "end": 1469811,
+      "start": 1495280,
+      "end": 1498838,
       "cfr_refs": [
         "425.654"
       ]
@@ -747,8 +747,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1469813,
-      "end": 1469925,
+      "start": 1498840,
+      "end": 1498952,
       "cfr_refs": [
         "425.656"
       ]
@@ -761,8 +761,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.656 Calculating the regional adjustment to the historical benchmark."
       ],
-      "start": 1469927,
-      "end": 1479516,
+      "start": 1498954,
+      "end": 1508543,
       "cfr_refs": [
         "425.656"
       ]
@@ -775,8 +775,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1479518,
-      "end": 1479630,
+      "start": 1508545,
+      "end": 1508657,
       "cfr_refs": [
         "425.658"
       ]
@@ -789,8 +789,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.658 Calculating the prior savings adjustment to the historical benchmark."
       ],
-      "start": 1479632,
-      "end": 1482317,
+      "start": 1508659,
+      "end": 1511344,
       "cfr_refs": [
         "425.658"
       ]
@@ -803,8 +803,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1482319,
-      "end": 1482431,
+      "start": 1511346,
+      "end": 1511458,
       "cfr_refs": [
         "425.660"
       ]
@@ -817,8 +817,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.660 Accountable Care Prospective Trend (ACPT)."
       ],
-      "start": 1482433,
-      "end": 1486105,
+      "start": 1511460,
+      "end": 1515132,
       "cfr_refs": [
         "425.660"
       ]
@@ -831,8 +831,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1486107,
-      "end": 1486229,
+      "start": 1515134,
+      "end": 1515256,
       "cfr_refs": [
         "425.702"
       ]
@@ -845,8 +845,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.702 Aggregate reports."
       ],
-      "start": 1486231,
-      "end": 1486625,
+      "start": 1515258,
+      "end": 1515652,
       "cfr_refs": [
         "425.702"
       ]
@@ -859,8 +859,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1486627,
-      "end": 1486789,
+      "start": 1515654,
+      "end": 1515816,
       "cfr_refs": [
         "425.704"
       ]
@@ -873,8 +873,8 @@
         "PART 425 (Title 42 CFR)",
         "§ 425.704 Beneficiary-identifiable claims data."
       ],
-      "start": 1486791,
-      "end": 1487370,
+      "start": 1515818,
+      "end": 1516397,
       "cfr_refs": [
         "425.704"
       ]
@@ -887,8 +887,8 @@
         "PART 425 (Title 42 CFR)",
         "amendatory instructions"
       ],
-      "start": 1487372,
-      "end": 1487680,
+      "start": 1516399,
+      "end": 1516707,
       "cfr_refs": [
         "425.601",
         "425.602",
