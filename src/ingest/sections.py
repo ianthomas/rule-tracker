@@ -329,12 +329,14 @@ def ingest_doc(fr_doc_no: str) -> dict:
     wrote_manifest = write_frozen(ddir / "sections.json", manifest_bytes)
 
     kinds = [e["kind"] for e in entries]
+    distinct_refs = sorted({r for e in entries for r in e.get("cfr_refs", [])})
     return {
         "doc_id": fr_doc_no,
         "stage": spec.stage,
         "sections": len(entries),
         "preamble": kinds.count("preamble"),
         "regtext": kinds.count("regtext"),
+        "distinct_cfr_refs": len(distinct_refs),
         "chars": len(text),
         "wrote_text": wrote_text,
         "wrote_manifest": wrote_manifest,

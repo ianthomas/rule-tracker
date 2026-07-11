@@ -21,12 +21,15 @@ working project skeleton. Nothing clever; everything reproducible with `make ing
    line matches the recorded heading.
 
 ## Exit criteria (check off with evidence in this file)
-- [ ] `make ingest` produces `corpus/{doc}/raw.xml`, `text.txt`, `sections.json` for all
-      three documents.
-- [ ] Section manifest for each doc includes ≥1 `regtext` block touching Part 425.
-- [ ] Smoke test green.
-- [ ] `text.txt` files are byte-identical across two consecutive `make ingest` runs
-      (idempotence — protects span integrity).
+- [x] `make ingest` produces `corpus/{doc}/raw.xml`, `text.txt`, `sections.json` for all
+      three documents. — Evidence: `runs/phase-0/ingest.txt`; artifacts committed under `corpus/`.
+- [x] Section manifest for each doc includes ≥1 `regtext` block touching Part 425.
+      — Evidence: 57/44/43 regtext sections; `test_at_least_one_part_425_regtext` green.
+- [x] Smoke test green. — Evidence: `test_offsets_slice_to_heading`, 0 violations
+      across 163 sections (`runs/phase-0/unit.txt`).
+- [x] `text.txt` files are byte-identical across two consecutive `make ingest` runs
+      (idempotence — protects span integrity). — Evidence: second run logged
+      `unchanged (frozen)` for all three docs; `test_ingest_idempotent` green.
 
 ## Cuttable under time pressure
 - Preamble section capture (keep regtext only; lineage loses some context, survivable).

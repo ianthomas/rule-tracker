@@ -6,6 +6,9 @@ from src import config
 from src.ingest.fetch import fetch
 from src.ingest.sections import ingest_doc
 
+# Force UTF-8 output so redirected logs (runs/) don't render § as mojibake.
+sys.stdout.reconfigure(encoding="utf-8")
+
 
 def main() -> int:
     for fr_doc_no, spec in config.DOCS.items():
@@ -16,7 +19,8 @@ def main() -> int:
         frozen = "written" if summary["wrote_text"] else "unchanged (frozen)"
         print(
             f"  sections: {summary['sections']} "
-            f"({summary['preamble']} preamble, {summary['regtext']} regtext), "
+            f"({summary['preamble']} preamble, {summary['regtext']} regtext, "
+            f"{summary['distinct_cfr_refs']} distinct § 425.x refs), "
             f"text.txt: {summary['chars']:,} chars [{frozen}]"
         )
     return 0

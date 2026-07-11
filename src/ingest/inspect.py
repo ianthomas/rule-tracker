@@ -8,6 +8,10 @@ import sys
 
 from src import config
 
+# The corpus is UTF-8 (§, —). Force UTF-8 output so redirected/piped runs on
+# Windows don't render mojibake that looks like a data problem (manual test M2).
+sys.stdout.reconfigure(encoding="utf-8")
+
 
 def inspect(fr_doc_no: str) -> None:
     ddir = config.CORPUS_DIR / fr_doc_no

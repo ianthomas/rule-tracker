@@ -19,26 +19,25 @@ make inspect DOC=2023-24184
 ```
 
 **What to look at:** the listing of section headings (preamble first, then
-regtext). Compare against the document's table of contents on the FR website:
-
-- BASELINE: https://www.federalregister.gov/documents/2022/11/18/2022-23873
-- PROPOSED: https://www.federalregister.gov/documents/2023/08/07/2023-14624
-- FINAL:    https://www.federalregister.gov/documents/2023/11/16/2023-24184
+regtext). This is a **presence + purity** check, scoped to 5 minutes:
 
 **Pass looks like:**
 
-- Preamble headings are MSSP material: a "Medicare Shared Savings Program"
-  main section plus small MSSP subsections from the ICR/RIA parts.
-- Regtext headings are `§ 425.xxx ...` sections and
-  `PART 425 ... amendatory instructions` groups — nothing from other CFR parts
-  (no § 414.x, § 410.x, etc.).
-- Nothing obviously MSSP-related in the FR site's TOC is missing from the
-  preamble list. (Judgment call: minor sub-headings are inside their parent
-  section's text, not separate manifest entries — that's expected.)
+1. **Presence:** each doc has a "Medicare Shared Savings Program" preamble
+   section (the main chapter) and a list of `§ 425.xxx ...` regtext sections.
+2. **Purity:** nothing from other CFR parts or other PFS topics — no § 414.x /
+   § 410.x headings, no drug pricing / telehealth sections.
+3. (Judgment call: MSSP sub-headings live inside their parent section's text,
+   not as separate manifest entries — that's expected.)
 
-**Fail looks like:** headings about drug pricing / telehealth / other PFS
-topics appearing as sections; or an MSSP chapter visible on the FR site with
-no corresponding captured section.
+**Fail looks like:** headings about other PFS topics appearing as sections, or
+a doc with no MSSP preamble section / no § 425.x regtext sections at all.
+
+*Optional deeper audit (NOT in the 5-min estimate):* compare the preamble list
+against the MSSP portions of the documents' TOCs on the FR website —
+2022-23873 / 2023-14624 / 2023-24184 at federalregister.gov/documents/. Doing
+this honestly for three ~1,000-page omnibus rules takes 10–15 extra minutes;
+skip it or sample one document unless something in the 5-min check looks off.
 
 ---
 
@@ -64,3 +63,8 @@ show the same windows.)
 (`beneficiaryassignment`), garbled characters (`Â§`, `â€”`), or windows that
 are mostly table-cell soup (a single messy table window is tolerable — flag
 it in the response rather than failing outright).
+
+> Encoding caveat: the CLIs force UTF-8 output. If your *terminal* still shows
+> `Â§` where `§` should be, that's the terminal's codepage, not the data —
+> confirm by opening `corpus/<doc>/text.txt` in an editor (it is UTF-8) before
+> recording a failure.

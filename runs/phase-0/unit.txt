@@ -43,4 +43,4 @@ tests/unit/test_sections.py::test_prorule_flat_layout PASSED             [ 94%]
 tests/unit/test_sections.py::test_prorule_slices_match_headings PASSED   [ 97%]
 tests/unit/test_sections.py::test_determinism PASSED                     [100%]
 
-============================= 36 passed in 0.97s ==============================
+============================= 36 passed in 1.17s ==============================
