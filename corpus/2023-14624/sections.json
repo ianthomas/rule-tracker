@@ -1,0 +1,713 @@
+{
+  "doc_id": "2023-14624",
+  "stage": "PROPOSED",
+  "citation": "88 FR 52262",
+  "docket": "CMS-1784-P",
+  "raw_sha256": "c83f71714532551067482524ec3f4a9668015707eb2867c1af87bda52249168c",
+  "text_sha256": "d413863f3d454eac080429a5bb0846cb7dd1f55f84e94106279d5476f854b9db",
+  "sections": [
+    {
+      "section_id": "s0000",
+      "kind": "preamble",
+      "heading": "G. Medicare Shared Savings Program",
+      "heading_path": [
+        "III. Other Provisions of the Proposed Rule",
+        "G. Medicare Shared Savings Program"
+      ],
+      "start": 0,
+      "end": 508292
+    },
+    {
+      "section_id": "s0001",
+      "kind": "preamble",
+      "heading": "(2) Proposal for the Medicare Clinical Quality Measure for Accountable Care Organizations Participating in the Medicare Shared Savings Program",
+      "heading_path": [
+        "IV. Updates to the Quality Payment Program",
+        "A. CY 2024 Modifications to the Quality Payment Program",
+        "(2) Proposal for the Medicare Clinical Quality Measure for Accountable Care Organizations Participating in the Medicare Shared Savings Program"
+      ],
+      "start": 508294,
+      "end": 510265
+    },
+    {
+      "section_id": "s0002",
+      "kind": "preamble",
+      "heading": "3. ICRs Regarding the Medicare Shared Savings Program",
+      "heading_path": [
+        "V. Collection of Information Requirements",
+        "B. Proposed Information Collection Requirements (ICRs)",
+        "3. ICRs Regarding the Medicare Shared Savings Program"
+      ],
+      "start": 510267,
+      "end": 510804
+    },
+    {
+      "section_id": "s0003",
+      "kind": "preamble",
+      "heading": "e. Medicare Shared Savings Program",
+      "heading_path": [
+        "VII. Regulatory Impact Analysis",
+        "A. Statement of Need",
+        "e. Medicare Shared Savings Program"
+      ],
+      "start": 510806,
+      "end": 513082
+    },
+    {
+      "section_id": "s0004",
+      "kind": "preamble",
+      "heading": "10. Medicare Shared Savings Program",
+      "heading_path": [
+        "VII. Regulatory Impact Analysis",
+        "E. Other Provisions of the Regulation",
+        "10. Medicare Shared Savings Program"
+      ],
+      "start": 513084,
+      "end": 531643
+    },
+    {
+      "section_id": "s0005",
+      "kind": "preamble",
+      "heading": "1. Medicare Shared Savings Program Provisions",
+      "heading_path": [
+        "VII. Regulatory Impact Analysis",
+        "G. Impact on Beneficiaries",
+        "1. Medicare Shared Savings Program Provisions"
+      ],
+      "start": 531645,
+      "end": 533843
+    },
+    {
+      "section_id": "s0006",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 533845,
+      "end": 535009,
+      "cfr_refs": [
+        "425.20"
+      ]
+    },
+    {
+      "section_id": "s0007",
+      "kind": "regtext",
+      "heading": "§ 425.20 Definitions.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.20 Definitions."
+      ],
+      "start": 535011,
+      "end": 538974,
+      "cfr_refs": [
+        "425.20"
+      ]
+    },
+    {
+      "section_id": "s0008",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 538976,
+      "end": 539123,
+      "cfr_refs": [
+        "425.106"
+      ]
+    },
+    {
+      "section_id": "s0009",
+      "kind": "regtext",
+      "heading": "§ 425.106 Shared governance.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.106 Shared governance."
+      ],
+      "start": 539125,
+      "end": 539468,
+      "cfr_refs": [
+        "425.106"
+      ]
+    },
+    {
+      "section_id": "s0010",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 539470,
+      "end": 539617,
+      "cfr_refs": [
+        "425.204"
+      ]
+    },
+    {
+      "section_id": "s0011",
+      "kind": "regtext",
+      "heading": "§ 425.204 Content of the application.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.204 Content of the application."
+      ],
+      "start": 539619,
+      "end": 539937,
+      "cfr_refs": [
+        "425.204"
+      ]
+    },
+    {
+      "section_id": "s0012",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 539939,
+      "end": 540091,
+      "cfr_refs": [
+        "425.302"
+      ]
+    },
+    {
+      "section_id": "s0013",
+      "kind": "regtext",
+      "heading": "§ 425.302 Program requirements for data submission and certifications.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.302 Program requirements for data submission and certifications."
+      ],
+      "start": 540093,
+      "end": 540502,
+      "cfr_refs": [
+        "425.302"
+      ]
+    },
+    {
+      "section_id": "s0014",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 540504,
+      "end": 540649,
+      "cfr_refs": [
+        "425.308"
+      ]
+    },
+    {
+      "section_id": "s0015",
+      "kind": "regtext",
+      "heading": "§ 425.308 Public reporting and transparency.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.308 Public reporting and transparency."
+      ],
+      "start": 540651,
+      "end": 541106,
+      "cfr_refs": [
+        "425.308"
+      ]
+    },
+    {
+      "section_id": "s0016",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 541108,
+      "end": 541288,
+      "cfr_refs": [
+        "425.316"
+      ]
+    },
+    {
+      "section_id": "s0017",
+      "kind": "regtext",
+      "heading": "§ 425.316 Monitoring of ACOs.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.316 Monitoring of ACOs."
+      ],
+      "start": 541290,
+      "end": 541847,
+      "cfr_refs": [
+        "425.316"
+      ]
+    },
+    {
+      "section_id": "s0018",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 541849,
+      "end": 542358,
+      "cfr_refs": [
+        "425.400"
+      ]
+    },
+    {
+      "section_id": "s0019",
+      "kind": "regtext",
+      "heading": "§ 425.400 General.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.400 General."
+      ],
+      "start": 542360,
+      "end": 547502,
+      "cfr_refs": [
+        "425.400"
+      ]
+    },
+    {
+      "section_id": "s0020",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 547504,
+      "end": 547904,
+      "cfr_refs": [
+        "425.226",
+        "425.400",
+        "425.402"
+      ]
+    },
+    {
+      "section_id": "s0021",
+      "kind": "regtext",
+      "heading": "§ 425.402 Basic assignment methodology.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.402 Basic assignment methodology."
+      ],
+      "start": 547906,
+      "end": 550511,
+      "cfr_refs": [
+        "425.402"
+      ]
+    },
+    {
+      "section_id": "s0022",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 550513,
+      "end": 550675,
+      "cfr_refs": [
+        "425.506"
+      ]
+    },
+    {
+      "section_id": "s0023",
+      "kind": "regtext",
+      "heading": "§ 425.506 Incorporating reporting requirements related to adoption of certified electronic health record technology.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.506 Incorporating reporting requirements related to adoption of certified electronic health record technology."
+      ],
+      "start": 550677,
+      "end": 550884,
+      "cfr_refs": [
+        "425.506"
+      ]
+    },
+    {
+      "section_id": "s0024",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 550886,
+      "end": 551015,
+      "cfr_refs": [
+        "425.507"
+      ]
+    },
+    {
+      "section_id": "s0025",
+      "kind": "regtext",
+      "heading": "§ 425.507 Incorporating promoting interoperability requirements related to the Quality Payment Program for performance years beginning on or after January 1, 2024.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.507 Incorporating promoting interoperability requirements related to the Quality Payment Program for performance years beginning on or after January 1, 2024."
+      ],
+      "start": 551017,
+      "end": 552862,
+      "cfr_refs": [
+        "425.507"
+      ]
+    },
+    {
+      "section_id": "s0026",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 552864,
+      "end": 554869,
+      "cfr_refs": [
+        "425.512"
+      ]
+    },
+    {
+      "section_id": "s0027",
+      "kind": "regtext",
+      "heading": "§ 425.512 Determining the ACO quality performance standard for performance years beginning on or after January 1, 2021.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.512 Determining the ACO quality performance standard for performance years beginning on or after January 1, 2021."
+      ],
+      "start": 554871,
+      "end": 562602,
+      "cfr_refs": [
+        "425.512"
+      ]
+    },
+    {
+      "section_id": "s0028",
+      "kind": "regtext",
+      "heading": "§ 425.600 [Amended]",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.600 [Amended]"
+      ],
+      "start": 562604,
+      "end": 562623,
+      "cfr_refs": [
+        "425.600"
+      ]
+    },
+    {
+      "section_id": "s0029",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 562625,
+      "end": 562827,
+      "cfr_refs": [
+        "425.600",
+        "425.656"
+      ]
+    },
+    {
+      "section_id": "s0030",
+      "kind": "regtext",
+      "heading": "§ 425.601 [Amended]",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.601 [Amended]"
+      ],
+      "start": 562829,
+      "end": 562848,
+      "cfr_refs": [
+        "425.601"
+      ]
+    },
+    {
+      "section_id": "s0031",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 562850,
+      "end": 563077,
+      "cfr_refs": [
+        "425.226",
+        "425.400",
+        "425.601"
+      ]
+    },
+    {
+      "section_id": "s0032",
+      "kind": "regtext",
+      "heading": "§ 425.611 [Amended]",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.611 [Amended]"
+      ],
+      "start": 563079,
+      "end": 563098,
+      "cfr_refs": [
+        "425.611"
+      ]
+    },
+    {
+      "section_id": "s0033",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 563100,
+      "end": 563717,
+      "cfr_refs": [
+        "425.611",
+        "425.630",
+        "425.652",
+        "425.658"
+      ]
+    },
+    {
+      "section_id": "s0034",
+      "kind": "regtext",
+      "heading": "§ 425.630 Option to receive advance investment payments.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.630 Option to receive advance investment payments."
+      ],
+      "start": 563719,
+      "end": 567150,
+      "cfr_refs": [
+        "425.630"
+      ]
+    },
+    {
+      "section_id": "s0035",
+      "kind": "regtext",
+      "heading": "§ 425.650 [Amended]",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.650 [Amended]"
+      ],
+      "start": 567152,
+      "end": 567171,
+      "cfr_refs": [
+        "425.650"
+      ]
+    },
+    {
+      "section_id": "s0036",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 567173,
+      "end": 568074,
+      "cfr_refs": [
+        "425.226",
+        "425.400",
+        "425.601",
+        "425.602",
+        "425.603",
+        "425.650",
+        "425.652",
+        "425.659"
+      ]
+    },
+    {
+      "section_id": "s0037",
+      "kind": "regtext",
+      "heading": "§ 425.652 Establishing, adjusting, and updating the benchmark for agreement periods beginning on January 1, 2024, and in subsequent years.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.652 Establishing, adjusting, and updating the benchmark for agreement periods beginning on January 1, 2024, and in subsequent years."
+      ],
+      "start": 568076,
+      "end": 574136,
+      "cfr_refs": [
+        "425.652"
+      ]
+    },
+    {
+      "section_id": "s0038",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 574138,
+      "end": 574289,
+      "cfr_refs": [
+        "425.654"
+      ]
+    },
+    {
+      "section_id": "s0039",
+      "kind": "regtext",
+      "heading": "§ 425.654 Calculating county expenditures and regional expenditures.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.654 Calculating county expenditures and regional expenditures."
+      ],
+      "start": 574291,
+      "end": 574869,
+      "cfr_refs": [
+        "425.654"
+      ]
+    },
+    {
+      "section_id": "s0040",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 574871,
+      "end": 575001,
+      "cfr_refs": [
+        "425.655"
+      ]
+    },
+    {
+      "section_id": "s0041",
+      "kind": "regtext",
+      "heading": "§ 425.655 Calculating the regional risk score growth cap adjustment factor.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.655 Calculating the regional risk score growth cap adjustment factor."
+      ],
+      "start": 575003,
+      "end": 582262,
+      "cfr_refs": [
+        "425.655"
+      ]
+    },
+    {
+      "section_id": "s0042",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 582264,
+      "end": 583242,
+      "cfr_refs": [
+        "425.656"
+      ]
+    },
+    {
+      "section_id": "s0043",
+      "kind": "regtext",
+      "heading": "§ 425.656 Calculating the regional adjustment to the historical benchmark.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.656 Calculating the regional adjustment to the historical benchmark."
+      ],
+      "start": 583244,
+      "end": 584270,
+      "cfr_refs": [
+        "425.656"
+      ]
+    },
+    {
+      "section_id": "s0044",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 584272,
+      "end": 584735,
+      "cfr_refs": [
+        "425.656",
+        "425.658"
+      ]
+    },
+    {
+      "section_id": "s0045",
+      "kind": "regtext",
+      "heading": "§ 425.658 Calculating the prior savings adjustment to the historical benchmark.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.658 Calculating the prior savings adjustment to the historical benchmark."
+      ],
+      "start": 584737,
+      "end": 586891,
+      "cfr_refs": [
+        "425.658"
+      ]
+    },
+    {
+      "section_id": "s0046",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 586893,
+      "end": 587023,
+      "cfr_refs": [
+        "425.659"
+      ]
+    },
+    {
+      "section_id": "s0047",
+      "kind": "regtext",
+      "heading": "§ 425.659 Calculating risk scores used in Shared Savings Program benchmark calculations.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.659 Calculating risk scores used in Shared Savings Program benchmark calculations."
+      ],
+      "start": 587025,
+      "end": 589427,
+      "cfr_refs": [
+        "425.659"
+      ]
+    },
+    {
+      "section_id": "s0048",
+      "kind": "regtext",
+      "heading": "PART 425—MEDICARE SHARED SAVINGS PROGRAM — amendatory instructions",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "amendatory instructions"
+      ],
+      "start": 589429,
+      "end": 589811,
+      "cfr_refs": [
+        "425.702"
+      ]
+    },
+    {
+      "section_id": "s0049",
+      "kind": "regtext",
+      "heading": "§ 425.702 Aggregate reports.",
+      "heading_path": [
+        "PART 425—MEDICARE SHARED SAVINGS PROGRAM",
+        "§ 425.702 Aggregate reports."
+      ],
+      "start": 589813,
+      "end": 591103,
+      "cfr_refs": [
+        "425.702"
+      ]
+    }
+  ]
+}

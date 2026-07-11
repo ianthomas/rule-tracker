@@ -28,6 +28,8 @@ working end-to-end on the BASELINE document first, then run on all three.
    prompt edits (timeboxed: 45 min of prompt iteration max in this phase — the eval
    harness in Phase 2 is where tuning gets rigorous).
 8. Run on PROPOSED and FINAL.
+9. Save one cited-Q&A example and one rule-execution transcript to runs/examples/ —
+   these become CAPABILITIES.md links in Phase 4. Cheap now, annoying to reconstruct later.
 
 ## Exit criteria
 - [ ] `make extract` produces `objects.jsonl` + `rules.jsonl` per document.

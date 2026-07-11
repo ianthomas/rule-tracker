@@ -3,6 +3,9 @@
     "allow": [
       "Bash(make:*)",
       "Bash(uv:*)",
+      "Bash(export PATH=*)",
+      "Bash(export PATH=\"/c/Users/VR/.local/bin:$PATH\" && uv *)",
+      "Bash(export PATH=\"/c/Users/VR/.local/bin:$PATH\" && make *)",
       "Bash(pytest:*)",
       "Bash(python:*)",
       "Bash(python3:*)",

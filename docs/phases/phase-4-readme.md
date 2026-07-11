@@ -8,7 +8,12 @@ architecture decision record, not a tutorial.
 - Phases 0–3 retros exist; scorecard and lineage outputs are current.
 
 ## Tasks
-1. README structure:
+1. Fill every `{{...}}` placeholder in README.md AND docs/CAPABILITIES.md with real
+   numbers from runs/ and links to concrete output artifacts (a saved cited-answer
+   example, a saved rule-execution transcript, the flagship lineage render, the
+   scorecard). A placeholder left unfilled at v0.1 is a bug — grep for `{{` before
+   tagging.
+2. README structure:
    - What this is (3 sentences) + the one-sentence pitch.
    - The guaranteed-citation mechanism (span verification, leaf-level cites).
    - The rule schema and why it's constrained (extraction target = storage = executable).
@@ -25,7 +30,8 @@ architecture decision record, not a tutorial.
 4. Final commit; tag `v0.1`.
 
 ## Exit criteria
-- [ ] README complete with real numbers (no placeholders).
+- [ ] README complete with real numbers (no placeholders); `grep -r '{{' README.md docs/CAPABILITIES.md` returns nothing.
+- [ ] docs/CAPABILITIES.md corpus counts + all four capability example links resolve.
 - [ ] Five ADRs present and honest.
 - [ ] `make demo` works from a clean clone (given an API key).
 - [ ] Final retrospective covers the whole project: what you'd say in the interview

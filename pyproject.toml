@@ -1,0 +1,27 @@
+[project]
+name = "mssp-rule-lineage"
+version = "0.1.0"
+description = "Citation-verified knowledge objects and computable decision rules from CMS MSSP rulemaking"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32",
+    "lxml>=5.2",
+    "pydantic>=2.7",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

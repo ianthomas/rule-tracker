@@ -1,0 +1,5 @@
+# Span integrity: frozen corpus artifacts must never be line-ending-converted.
+# Offsets in sections.json index into text.txt as written; any CRLF rewrite
+# silently shifts every span. See CLAUDE.md invariant 1.
+corpus/** -text
+runs/** -text

@@ -19,3 +19,22 @@ Seed points (from project design, before any code):
 - **[design]** Deliberately no LangChain/ADK: a fixed two-pass DAG doesn't earn a
   framework; the stronger answer is articulating the adoption threshold (dynamic tool
   routing, multi-agent state, org-scale provider abstraction).
+
+Phase 0:
+- **[phase-0]** The FR XML vocabulary forks by document type: final rules wrap
+  amendatory text in `<REGTEXT PART="425">`, but the proposed rule has zero REGTEXT
+  elements — its regulation text sits flat under SUPLINF. First ingest captured 0 of
+  44 regtext sections for the proposed rule; one shared grouping function now handles
+  both layouts. Lesson: validate ingestion per document *type*, not per pipeline.
+- **[phase-0]** Span integrity nearly died before extraction even started: on Windows,
+  git's autocrlf would rewrite the frozen text.txt line endings on checkout, silently
+  shifting every character offset. Fixed with `.gitattributes: corpus/** -text` —
+  a one-line file protecting the project's core invariant.
+- **[phase-0]** The freeze guard is code, not convention: `write_frozen()` refuses to
+  overwrite an artifact with different bytes, and an integration test re-hashes
+  text.txt against the sha256 recorded at ingestion. Re-running `make ingest` is a
+  verified no-op (byte-identical across runs).
+- **[phase-0]** Amendatory text is fragmentary by design — a revised section appears
+  as just the changed paragraphs with `* * *` placeholders (§ 425.106 in the proposed
+  rule is 343 chars: only (c)(5)). This constrains Phases 1 and 3: a section slice is
+  not the whole regulation, and "absent from the proposed rule" ≠ "removed".
